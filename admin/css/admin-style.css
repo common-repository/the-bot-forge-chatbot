@@ -1,0 +1,176 @@
+.wrap {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Removed since icons are no longer in buttons */
+/* .button-primary.button-hero .dashicons {
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 24px;
+} */
+
+.button-primary.button-hero {
+    font-size: 18px;
+    height: auto;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.form-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-table th {
+    width: 20%;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.form-table td {
+    padding: 10px 0;
+}
+
+input[type="text"].regular-text {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #006799;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #00a0d2;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li .dashicons {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.6;
+    color: #666;
+    font-size: 14px;
+}
+
+.notice-warning {
+    border-left-color: #ffba00 !important;
+}
+
+.notice-warning p {
+    font-size: 14px;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button.button-primary {
+    background: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+}
+
+.button.button-primary:hover {
+    background: #006799;
+    border-color: #006799;
+}
+
+.bot-forge-testimonials {
+    margin-top: 30px;
+}
+
+.bot-forge-testimonials blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #0073aa;
+    margin: 20px 0;
+    padding: 15px 20px;
+    position: relative;
+    font-style: italic;
+    color: #555;
+}
+
+.bot-forge-testimonials blockquote:before {
+    content: open-quote;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #0073aa;
+}
+
+.bot-forge-testimonials blockquote:after {
+    content: close-quote;
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    bottom: -10px;
+    color: #0073aa;
+}
+
+.bot-forge-testimonials cite {
+    display: block;
+    text-align: right;
+    color: #333;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.bot-forge-testimonials p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Optionally hide admin notices on your settings page */
+.wrap + .notice, .wrap + .update-nag, .wrap + .error, .wrap + .updated {
+    display: none;
+}
